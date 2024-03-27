@@ -1,10 +1,11 @@
 .title svg {
   position: fixed;
+  display: flex;
   fill: black;
   stroke-width: 0px;
-  height: 300px;
-  top: -100px;
-  left: -20px;
+  height: 80px;
+  top: 20px;
+  left: 15px;
   z-index: 9999;
 }
 
@@ -50,9 +51,7 @@
     position: fixed;
     fill: black;
     stroke-width: 0px;
-    height: 250px;
-    top: -50px;
-    left: -10px;
+    height: 50px;
     z-index: 9999;
   }
   
