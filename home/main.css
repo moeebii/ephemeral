@@ -9,11 +9,13 @@ html {
   font-style: normal;
   white-space: pre-line; /* Allow for word wrapping */
   overflow-wrap: break-word; /* Wrap long words */
+    z-index: 5;
 }
 
 .text a {
   color: inherit; /* Inherit color from parent */
   text-decoration: none; /* Remove underline */
+    z-index: 5;
 }
 
 .image-alt-box {
@@ -35,6 +37,7 @@ html {
   position: absolute; 
   left: 60%;
   top: 10%;
+   z-index: -1; 
 }
 
 .images .poster2 img {
@@ -42,6 +45,7 @@ html {
   position: absolute;
   left: 40%;
   top: 20%;
+     z-index: -1; 
 }
 
 .images .poster3 img {
@@ -49,6 +53,7 @@ html {
   position: absolute;
   left: 25%;
   top: 50%;
+       z-index: -1; 
 }
 
 .images .poster4 img {
@@ -56,6 +61,7 @@ html {
   position: absolute;
   left: 50%;
   top: 70%;
+       z-index: -1; 
 }
 
 .images .poster5 img {
@@ -63,6 +69,7 @@ html {
   position: absolute;
   left: 70%;
   top: 45%;
+       z-index: -1; 
 }
 
 .images .poster6 img {
@@ -70,6 +77,7 @@ html {
   position: absolute;
   left: 60%;
   top: 90%;
+       z-index: -1; 
 }
 
 .images .poster7 img {
@@ -77,4 +85,5 @@ html {
   position: absolute;
   left: 60%;
   top: 33%;
+       z-index: -1; 
 }
