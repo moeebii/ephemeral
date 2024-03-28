@@ -171,7 +171,7 @@ function updateImages() {
   data.forEach(item => {
     if (filters[item.owner] && filters[item.name]) {
       const img = document.createElement("img");
-      img.src = "assets/" + item.assets;
+      img.src = item.assets;
       imagesDiv.appendChild(img);
     }
   });

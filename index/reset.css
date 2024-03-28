@@ -123,11 +123,11 @@ textarea {
 button {
   overflow: visible;
   text-transform: none;
-  color: inherit;
-  background: transparent;
+  color: black;
+  background: #FAFAFA;
     font-family: "nitti", monospace;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 20px;
   font-style: normal;
 }
 
@@ -240,4 +240,8 @@ textarea,
 [aria-hidden="false"][hidden]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   position: absolute;
+}
+
+.crossed-out {
+  text-decoration: line-through;
 }

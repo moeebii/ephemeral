@@ -1,5 +1,5 @@
 html {
-  margin: 100px;
+  margin: 50px;
 }
 
 .text {
@@ -14,4 +14,26 @@ html {
 button.crossed-out {
   text-decoration: line-through;
 }
+
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-gap: 3rem; /* Increased gap between images */
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  margin-top: 7rem;
+}
+
+.images img {
+  max-width: 100%; /* Ensure images do not exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline styles */
+}
+
+.images img:hover{
+  opacity: 0.80;
+}
+
 
