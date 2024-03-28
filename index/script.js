@@ -240,3 +240,32 @@ function updateImages() {
 }
 
 updateImages(); // Initial update
+function updateImages() {
+    const imagesDiv = document.getElementById("images");
+    imagesDiv.innerHTML = ""; // Clear existing images
+  
+    data.forEach(item => {
+      if (filters[item.owner] && filters[item.name]) {
+        const img = document.createElement("img");
+        img.src = item.assets;
+        
+        // Create an anchor tag and set its href based on the owner
+        const anchor = document.createElement("a");
+        if (item.owner === 'karissa') {
+          anchor.href = 'https://moeebii.github.io/ephemeral/karissa/';
+        } else if (item.owner === 'moe') {
+          anchor.href = 'https://moeebii.github.io/ephemeral/moe/';
+        } else if (item.owner === 'maanya') {
+          anchor.href = 'https://moeebii.github.io/ephemeral/maanya/';
+        } else if (item.owner === 'holly') {
+          anchor.href = 'https://moeebii.github.io/ephemeral/holly/';
+        }
+        
+        // Append image inside the anchor
+        anchor.appendChild(img);
+        // Append the anchor to the images container
+        imagesDiv.appendChild(anchor);
+      }
+    });
+  }
+  
