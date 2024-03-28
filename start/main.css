@@ -1,0 +1,56 @@
+html {
+  margin: 100px;
+}
+
+.text {
+  font-family: "nitti", monospace;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  white-space: pre-line; /* Allow for word wrapping */
+  overflow-wrap: break-word; /* Wrap long words */
+}
+
+.arrow {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+.arrow a {
+  font-size: 40px; /* Adjust size as needed */
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set arrow color */
+}
+
+
+@media screen and (max-width: 1100px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+  margin: 30px;
+}
+
+.text {
+    font-size: 20px;
+  }
+
+  .arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+}
+

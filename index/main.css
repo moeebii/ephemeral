@@ -1,0 +1,17 @@
+html {
+  margin: 100px;
+}
+
+.text {
+  font-family: "nitti", monospace;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  white-space: pre-line; /* Allow for word wrapping */
+  overflow-wrap: break-word; /* Wrap long words */
+}
+
+button.crossed-out {
+  text-decoration: line-through;
+}
+
