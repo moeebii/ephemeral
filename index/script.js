@@ -26,9 +26,19 @@ const data = [
     },
 
     {
-        "name": "blush",
+        "name": "lips",
         "owner": "karissa",
         "assets": "kar5.png"
+    },
+    {
+        "name": "lips",
+        "owner": "karissa",
+        "assets": "kar6.png"
+    },
+    {
+        "name": "blush",
+        "owner": "karissa",
+        "assets": "kar7.png"
     },
 
     {
@@ -138,6 +148,12 @@ const data = [
         "name": "lips",
         "owner": "maanya",
         "assets": "maa9.png"
+    },
+
+        {
+        "name": "lashes",
+        "owner": "maanya",
+        "assets": "maa10.png"
     },
 
     {
