@@ -138,7 +138,50 @@
         "name": "lips",
         "owner": "maanya",
         "assets": "maa9.png"
+    },
+
+    {
+        "name": "foundation",
+        "owner": "holly",
+        "assets": "holly1.png"
+    },
+
+    {
+        "name": "foundation",
+        "owner": "holly",
+        "assets": "holly2.png"
+    },
+    {
+        "name": "eyeshadow",
+        "owner": "holly",
+        "assets": "holly3.png"
+    },
+    {
+        "name": "eyeliner",
+        "owner": "holly",
+        "assets": "holly4.png"
+    },
+    {
+        "name": "eyeshadow",
+        "owner": "holly",
+        "assets": "holly5.png"
+    },
+    {
+        "name": "lips",
+        "owner": "holly",
+        "assets": "holly6.png"
+    },
+    {
+        "name": "blush",
+        "owner": "holly",
+        "assets": "holly7.png"
+    },
+    {
+        "name": "contour",
+        "owner": "holly",
+        "assets": "holly8.png"
     }
+
 
 
 ]
