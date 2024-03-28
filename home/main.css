@@ -11,12 +11,10 @@ html {
   overflow-wrap: break-word; /* Wrap long words */
 }
 
-
 .text a {
   color: inherit; /* Inherit color from parent */
   text-decoration: none; /* Remove underline */
 }
-
 
 .image-alt-box {
   position: fixed;
@@ -31,6 +29,52 @@ html {
   z-index: 999; /* Ensure it's above other elements */
 }
 
-.poster1{
-  width: 10%;
+
+.images .poster1 img {
+  max-width: 30%; 
+  position: absolute; 
+  left: 60%;
+  top: 10%;
+}
+
+.images .poster2 img {
+  max-width: 25%;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.images .poster3 img {
+  max-width: 20%;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+.images .poster4 img {
+  max-width: 15%;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+
+.images .poster5 img {
+  max-width: 25%;
+  position: absolute;
+  left: 70%;
+  top: 45%;
+}
+
+.images .poster6 img {
+  max-width: 20%;
+  position: absolute;
+  left: 60%;
+  top: 90%;
+}
+
+.images .poster7 img {
+  max-width: 13%;
+  position: absolute;
+  left: 60%;
+  top: 33%;
 }
