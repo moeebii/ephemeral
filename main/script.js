@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navigator.mediaDevices.getUserMedia({ video: true })
             .then(function (stream) {
                 video.srcObject = stream;
-                fadeOutOverTime(video, container, 10); // Start fading out over 30 seconds immediately
+                fadeOutOverTime(video, container, 30); // Start fading out over 30 seconds immediately
             })
             .catch(function (error) {
                 console.log("Something went wrong: ", error);
